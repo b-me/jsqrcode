@@ -53,8 +53,6 @@ module.exports = function(Canvas){
     isCanvas = function(instance){
       return instance instanceof Canvas;
     }
-    var s = require; //trick browserify into not including canvas
-    if(!Canvas) Canvas = s('canvas');
     Image = Canvas.Image;
   }
   
